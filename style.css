@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+p{
+    padding: 0 10px;
+    text-align: justify;
+}
+ul.marking{
+    list-style-image: url(./mark.png);
+}
+table{
+    margin: 30px;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+    
+}
+th, td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+caption{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
